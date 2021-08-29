@@ -1,4 +1,4 @@
-package com.datastructure.List;
+package com.ccampana.datastructures;
 
 import java.util.Iterator;
 

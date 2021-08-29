@@ -1,4 +1,4 @@
-package com.datastructure.List;
+package com.ccampana.datastructures;
 
 public interface Queue<E> {
     void enqueue(E e);

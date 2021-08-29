@@ -1,4 +1,4 @@
-package com.datastructure.List;
+package com.ccampana.datastructures;
 
 import java.util.NoSuchElementException;
 
@@ -8,7 +8,7 @@ import java.util.NoSuchElementException;
  * The first node (Head) connects exclusively to the next node. Thus, creating a chain of nodes.
  * The current version is designed to be a trimmed-down version of JDK's reference implementation.
  * Only the essential features are represented here.
- * It implements the interface {@Link main.com.datastructure.List.List}.
+ * It implements the interface {@Link main.java.com.ccampana.datastructures.List}.
  * <p>
  * This project is licensed under Creative Commons Attribution 4.0 International License.
  * <p>
@@ -16,7 +16,7 @@ import java.util.NoSuchElementException;
  *
  * @version 0.1
  * @Author: Caike Salles Campana
- * @See: main.com.datastructure.List.List
+ * @See: main.java.com.ccampana.datastructures.List
  */
 public class SinglyLinkedList<E> implements List<E> {
     private final static int NOT_FOUND = -1;

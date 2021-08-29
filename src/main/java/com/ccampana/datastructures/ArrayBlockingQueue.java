@@ -1,9 +1,9 @@
-package com.datastructure.List;
+package com.ccampana.datastructures;
 
 /**
  * <p>
  * ArrayBlockingQueue is a generic class that extends ArrayQueue {@link ArrayQueue}.
- * The objective of this data structure is to have a Queue implemented through a Linked List
+ * The objective of this data structure is to have a Queue implemented through a Linked com.ccampana.datastructures.List
  * {@link ArrayList},which has a limited size.
  * </p>
  * <p>

@@ -1,4 +1,4 @@
-package com.datastructure.List;
+package com.ccampana.datastructures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
  * <p>
  * It was designed to be a trimmed version, with all the essential features, and to be easily
  * customized to the needs of the project that it will be used. It implements the interface
- * List.
+ * com.ccampana.datastructures.List.
  * </p>
  * <p>
  * Its initial capacity is 10 as well as its growth rate is 1.5.
@@ -43,7 +43,7 @@ public class ArrayList<E> implements List<E>, Iterable<E> {
     final int NOT_FOUND = -1;
     /**
      * Keeps the current number of elements in the array. Updated when an element is
-     * removed or added to the main.com.datastructure.List.ArrayList.
+     * removed or added to the main.com.ccampana.datastructures.ArrayList.
      */
     public int size;
     /**
@@ -51,7 +51,7 @@ public class ArrayList<E> implements List<E>, Iterable<E> {
      */
     int currentArrayCapacity;
     /**
-     * The underlining array used to store the objects added to the main.com.datastructure.List.ArrayList.
+     * The underlining array used to store the objects added to the main.com.ccampana.datastructures.ArrayList.
      */
     E[] array;
 
@@ -68,10 +68,10 @@ public class ArrayList<E> implements List<E>, Iterable<E> {
     }
 
     /**
-     * Constructor that adds an array of elements to the main.com.datastructure.List.ArrayList using the method
+     * Constructor that adds an array of elements to the main.com.ccampana.datastructures.ArrayList using the method
      * {@link ArrayList#add(E element)}.
      *
-     * @param elements an array of elements to be added into the main.com.datastructure.List.ArrayList.
+     * @param elements an array of elements to be added into the main.com.ccampana.datastructures.ArrayList.
      * @see ArrayList#add(E element)
      */
     public ArrayList(E[] elements) {
@@ -178,7 +178,7 @@ public class ArrayList<E> implements List<E>, Iterable<E> {
      * This method removes an specified element from the array. It first finds it using the
      * method {@link ArrayList#indexOf(E element)}.
      *
-     * @param element element to be removed from the Array main.com.datastructure.List.List.
+     * @param element element to be removed from the Array main.java.com.ccampana.datastructures.List.
      * @throws NoSuchElementException if the element does not exist on the array.
      */
     @Override

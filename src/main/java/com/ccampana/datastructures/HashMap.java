@@ -1,10 +1,10 @@
-package com.datastructure.List;
+package com.ccampana.datastructures;
 
 import java.util.NoSuchElementException;
 
 /**
  * <p>
- * The HashMap is a data structure that allows adding and removing elements from an underlining
+ * The com.ccampana.datastructures.HashMap is a data structure that allows adding and removing elements from an underlining
  * array list using a translator function called a hash function that provides an easy map between
  * elements and their respective position (buckets).
  * </p>
@@ -15,7 +15,7 @@ import java.util.NoSuchElementException;
  * The hash function is not dealt with here. Instead, it is provided an interface {@link HashCode}
  * containing a single method with the same name. There is a necessity to implement this interface
  * since it is a parameter for the default constructor. This is advantageous since it removes
- * a critical component of the HashMap from its implementation, allowing for greater flexibility
+ * a critical component of the com.ccampana.datastructures.HashMap from its implementation, allowing for greater flexibility
  * to rewrite many hash functions and not have an ineffective default implementation.
  * <p>
  * The maximum load within the hash map is 0.75 unless defined differently through the constructor.
@@ -109,7 +109,7 @@ public class HashMap<K, V> {
     }
 
     /**
-     * Adds a key-value pair to the HashMap.
+     * Adds a key-value pair to the com.ccampana.datastructures.HashMap.
      * @param key the key used for indexing.
      * @param value value to be associated with the key.
      */
