@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
  * Only the essential features are represented here.
  * It implements the interface {@Link main.java.com.ccampana.datastructures.List}.
  * <p>
- * This project is licensed under Creative Commons Attribution 4.0 International License.
+ * This project is licensed under GNU General Public License v3.0.
  * <p>
  * Created by Caike Salles Campana - csallesc@ucsd.edu
  *

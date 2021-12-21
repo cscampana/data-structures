@@ -73,6 +73,7 @@ public class HashMap<K, V> {
      * required by the default constructor.
      */
     HashCode<K> hashFunction;
+
     /**
      * Private field that defines the maximum load of the hash map.
      */
@@ -96,6 +97,7 @@ public class HashMap<K, V> {
         loadFactor = 0;
         maximumLoad = DEFAULT_MAX_LOAD;
         size = 0;
+
     }
 
     /**
