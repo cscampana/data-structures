@@ -1,13 +1,19 @@
 package com.ccampana.datastructures;
 
-public interface Tree<K, V> {
+public interface Tree<K extends Comparable<K>, V extends Comparable<V>> {
     public void addNode(K key, V value);
+
     public void removeNode(K key);
-    public Node<K,V> getRoot();
+
+    public Node<K, V> getRoot();
+
     public V getValue(K key);
+
     public List<K> getKeys();
+
     public List<V> getValues();
-    class Node<K, V> {
+
+    class Node<K extends Comparable<K>, V extends Comparable<V>> implements Comparable<Node<K, V>> {
         private K key;
         private V value;
         private Node<K, V> parent;
@@ -58,6 +64,13 @@ public interface Tree<K, V> {
 
         public void setValue(V value) {
             this.value = value;
+        }
+
+
+        @Override
+        public int compareTo(Node<K, V> otherNode) {
+            return this.getKey().compareTo(otherNode.getKey());
+
         }
     }
 }
